@@ -1,0 +1,165 @@
+body {
+	background: #D1D0CF;
+	font-family: verdana;
+}
+
+nav {
+	overflow: hidden;
+}
+
+nav ul{
+	list-style-type: none;
+
+	padding: 0px;
+}
+
+nav ul li {
+	float: left;
+	padding: 3px 10px;
+	margin: 2px;
+	background:#0736A7;
+	border-radius: 8px;
+	transition: height 1s;
+	height: 30px;
+	}
+
+article{
+	float: left;
+}
+aside{
+	margin-top: 30px;
+	background-color: #0736A7;
+	float: left;
+	display: block;
+	border-radius: 5px;
+	text-align: justify;
+	padding: 5px;
+	color: white;
+	}
+
+aside a {
+	color: white;
+	text-align: justify;
+}
+
+ nav ul li a {
+ 	text-decoration: none;
+ 	color: white;
+ 	display: block;
+ 	}
+
+ nav ul li:hover{
+	background: #2B7BCB;
+	height: 20px;
+}
+
+article a {
+	text-decoration: none;
+ 	color: white;
+ 	display: block;
+}
+
+#logo {
+	border-radius: 100px;
+	height: 200px;
+}
+
+
+article {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#productos {
+	margin-left:auto;
+	margin-right: auto;
+	background:#0736A7;
+	border-radius: 8px;
+  	transition: width 1s;
+}
+
+#productos:hover{
+	background: #2B7BCB;
+	width: 20%;
+}
+
+#nombre{
+	font-size: 30px;
+	text-align: center;
+}
+
+footer{
+	border-radius: 20px;
+	background: #0736A7;
+	text-align: center;
+	color: white;
+	clear: both;
+
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px){
+	[class*="col-"] {
+  					
+  				width: 100%;}
+
+  	.col-s-a-2 {width: 16.66%;}
+	.col-s-a-12 {width: 16.66%;}	
+
+	nav ul li {
+	float: none;
+	text-align: center;
+	}
+
+	aside{
+		display: none;
+	}
+
+	#logo{
+		height: 200px;
+	}
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+aside{
+	margin-bottom: 10px;
+}
+#logo{height: 200px;
+}
+
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  #logo{height: 200px;
+}
+}
+
+

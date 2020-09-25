@@ -1,0 +1,65 @@
+body {
+	background: #D1D0CF;
+	font-family: verdana;
+}
+
+nav {
+	overflow: hidden;
+}
+
+nav ul{
+	list-style-type: none;
+	float: left;
+	padding: 0px;
+}
+
+nav ul li {
+	float: left;
+	padding: 3px 10px;
+	margin: 2px;
+	background:#0736A7;
+	border-radius: 8px;
+}
+
+nav ul li:hover{
+	background: #2B7BCB;
+}
+
+ nav ul li a {
+ 	text-decoration: none;
+ 	color: white;
+ 	display: block;
+ 	}
+
+ nav ul li:hover{
+	background: #2B7BCB;
+}
+
+footer{
+	border-radius: 20px;
+	background: #0736A7;
+	text-align: center;
+	color: white;
+}
+
+td{
+	text-align: justify;
+}
+
+#logo1 {
+	border-radius: 100px;
+}
+
+#golf{
+	width: 400px;
+}
+
+#texto {
+	text-align: justify;
+}
+#conchasb , #bujias , #oilpump , #electro {
+		width: 120px;
+		height: 120px;
+		float: left;
+		border-radius: 100px;
+}
